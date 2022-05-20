@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jeppes logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Name</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">MAT</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">ENG</a>
+            <a href="dotdotdot.html">...</a>
+            <a href="so.html">SO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+                <button class="accordion">section 1</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <div class="element left">
+                <h2>Informatik Projekter</h2>
+                <button class="accordion">it projekt</button>
+                <div class="panel">
+                <p>Vores gruppe består af Frederik Jotto, Jeppe Gregersen, Tobias Hald, Tobias Lehman.
+                    vi har tænkt os at lave et system hvor elever og lærer kan se bookede og booke lokaler til brug af undervisningen.
+                    info skærmen skal også kunne vise hvor meget der er tilbage i kantinen af de forskellige varer, samt en countdown til den næste slotsfest.
+                    med mere 
+
+                    mig adam og simon har lavet en powerupp til flabby bird spillet. 
+                    poweruppen gør dig imun over for ildkuglerne der bliver skudt mod dig
+
+                    mig og Mads arbejdede sammen når det kom til at lave en server, vi lavede det på hans computer, da det ikke gad virke på min.
+                    men eventuelt stoppede det også med at virke på hans så vi havde ikke meget vi kunne gøre med serveren. 
+                    men vi fik arbejdet lidt på den, og fandt ud af hvordan den virkede, vi kunne få serveren til at starte og interigere med serveren. 
+                    men vi var desværre ikke selv istand til at kunne interrigere med serveren med vores egne knapper.
+
+                    mig, adam, simon og mads arbejdede sammen på So2 projektet hvor vi skulle lave en hjemmeside til en grundforløbsklasse.
+                    vi valgte at have emnet fysik og fokuseret på newtons 3 love. for at gøre det nemmer at finde formlerne til fysikken havde vi overvejet at lave en popup,
+                    hvor hvis man trykker på en knap,nede i højre hjørne, kommer der en lille side frem hvor formlerne står på den. det blev desværre ikke til noget da vi ikke kunne får det til at virke
+                    istedet havde vi lavet en dropdown hvor man kunne vælge hvilken fysik side man ville hen på.
+                </p>
+                </div>
+
+                <button class="accordion">programering noter</button>
+                <div class="panel">
+                <p>html programmerings definitioner:
+                    "!doctype html" erklære at dette dokument er et html dokument 
+                    "html" er rod elementet af html siden
+                    "head" indeholder meta info om siden
+                    "titel" er titlen. duhh
+                    "body" er beholderen for alt det synlige på siden
+
+                    css noter. man kan ændre stilen af ens html side via css. css. kan ændre farver og opsætningen af ens html side
+
+                    server noter
+                    get: fetching something from the server. safe pga. at der ikke bliver dannet eller slettet noget og intet bliver ændret
+                    post: er at man danner et element eller skaber noget data. unsafe fordi der bliver ændret noget på serveren
+                    put: er at man opdatere et element. unsafe fordi det ændre serveren
+                    delete: sletter. unsafe fordi det ændre på serveren
+                </p>
+                </div>
+
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
